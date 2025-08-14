@@ -1,0 +1,52 @@
+body {
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background-color: rgb(199, 198, 198);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+li.riscado {
+  text-decoration: line-through;
+  color: rgb(0, 0, 0);
+}
